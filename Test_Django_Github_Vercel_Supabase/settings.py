@@ -137,7 +137,7 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
-STATIC_DIRS = [os.path.join(BASE_DIR, 'Test_Django_Github_Vercel_Supabase/static')]
+STATIC_DIRS = [os.path.join(BASE_DIR, 'app/static')]
 
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 
